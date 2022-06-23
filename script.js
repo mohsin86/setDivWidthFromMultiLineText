@@ -1,6 +1,9 @@
 
 el = document.querySelector('#aSentence');
+
+//Call this function with selector
 setWidthForDiv(el);
+
 function setWidthForDiv(el){          window.getSelection().selectAllChildren(el);
   var selection = window.getSelection();
   var range = selection.getRangeAt(0); 
