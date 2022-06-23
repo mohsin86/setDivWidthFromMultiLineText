@@ -1,0 +1,15 @@
+#board{
+  position: relative;
+  width: 160px;
+  background: green;
+  padding:10px;
+}
+#aSentence{
+  position: relative;
+  width: 140px;
+  left: 50%;
+  background: gray;
+  transform: translateX(-50%);
+  font-size: 27px;
+  text-align: left;
+}
